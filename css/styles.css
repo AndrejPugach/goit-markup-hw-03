@@ -6,12 +6,37 @@ body {
 
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -26,11 +51,20 @@ a {
     color: #2e2f42;
 }
 
-.footer-logo .logo-part {
-    color: #f4f4fd;
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -40,9 +74,18 @@ a {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contascts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -55,27 +98,24 @@ a {
     color: #404bbf;
 }
 
-.page-footer {
-    background-color: #2e2f42;
-}
-
-.footer-text {
-    color: #f4f4fd;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 .main-section {
     background: #2e2f42;
+    width: 1440px;
+    height: 600px;
 }
 
+
 .main-title {
+    width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    padding-left: 472px;
+    padding-right: 472px;
 }
 
 .main-button {
@@ -87,7 +127,8 @@ a {
     cursor: pointer;
 }
 
-.main-button:hover, .main-button:focus {
+.main-button:hover,
+.main-button:focus {
     background: #404bbf;
 }
 
@@ -172,3 +213,18 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
