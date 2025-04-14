@@ -219,6 +219,7 @@ button {
 
 .section-team {
     background: #f4f4fd;
+    padding: 120px 0 120px;
 }
 
 .team-cotainer {
@@ -226,7 +227,6 @@ button {
 }
 
 .section-team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -241,10 +241,6 @@ button {
     gap: 24px;
 }
 
-.section-team-information {
-    padding: 32px 0;
-}
-
 .section-team-item {
     border-radius: 0 0 4px 4px;
     width: calc((100% - 3 * 24px) / 4);
@@ -254,16 +250,11 @@ button {
     padding: 32px 0;
 }
 
-.section-team-list {
-    display: flex;
-    gap: 24px;
-}
-
 .section-team-item {
     background: #fff;
 }
 
-.section-team-title-list {
+.section-team-title-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
