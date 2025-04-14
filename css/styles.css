@@ -229,8 +229,7 @@ button {
 }
 
 .section-team-item {
-    background-color: #ffffff;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);   
 }
 
 .section-team-title {
