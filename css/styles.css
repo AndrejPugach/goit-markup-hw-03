@@ -219,7 +219,6 @@ button {
 
 .section-team {
     background: #f4f4fd;
-    padding: 120px 0;
 }
 
 .team-cotainer {
@@ -249,10 +248,6 @@ button {
 .section-team-item {
     border-radius: 0 0 4px 4px;
     width: calc((100% - 3 * 24px) / 4);
-}
-
-.section-team-avatar {
-   
 }
 
 .section-team-information {
