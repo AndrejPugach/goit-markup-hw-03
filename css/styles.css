@@ -78,6 +78,10 @@ button {
     padding: 24px 0;
 }
 
+.nav-item {
+    padding: 24px 0;
+}
+
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -163,6 +167,10 @@ button {
     background: #404bbf;
 }
 
+.advantages-section {
+    padding: 120px 0;
+}
+
 .advantages-container {
     display: flex; 
 }
@@ -210,6 +218,7 @@ button {
 
 .section-team {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-cotainer {
@@ -220,6 +229,7 @@ button {
 
 .section-team-item {
     background-color: #ffffff;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-team-title {
@@ -235,6 +245,10 @@ button {
 
 .section-team-avatar {
     /* margin-bottom: 32px;*/
+}
+
+.section-team-information {
+    padding: 32px 0;
 }
 
 .section-team-list {
@@ -272,7 +286,8 @@ button {
 }
 
 .section-portfolio {
-   padding: 32px 16px;
+   padding-top: 120px;
+   padding-bottom: 120px;
    border: 1px solid #e7e9fc
 }
 
@@ -362,6 +377,7 @@ button {
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
