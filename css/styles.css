@@ -68,14 +68,12 @@ button {
 .header-logo {
     padding: 24px 0;
     margin-right: 76px;
-    margin-left: 156px;
 }
 
 .nav-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav-item {
@@ -93,14 +91,12 @@ button {
 
 .contacts {
     font-style: normal;
-    margin-left: auto;
 }
 
 .contascts-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 156px;
 }
 
 .contacts-link {
@@ -128,7 +124,6 @@ button {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 100vh;
 }
 
 .main-title {
@@ -140,7 +135,6 @@ button {
     text-align: center;
     color: #fff;
     display: flex;
-    padding-top: 188px;
     margin-bottom: 48px;
     max-width: 496px;
 }
@@ -304,15 +298,8 @@ button {
     flex-wrap: wrap;
 }
 
-.section-team-avatar {
-    margin-bottom: 32px;
-}
-
 .section-portfolio-item {
-    display: block;
-    border: 1px solid #e7e9fc;
     width: 360px;
-    height: 420px;
 }
 
 .section-team-information {
